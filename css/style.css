@@ -1,0 +1,241 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #797f8f;
+  text-decoration: none;
+}
+
+.mainContainer {
+  width: 64em;
+  margin: 0 auto;
+}
+
+/* header Section */
+
+.mainContainer .headerSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainContainer .headerSection .logoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16em;
+}
+
+.mainContainer .headerSection .logoContainer .logo h1 {
+  margin-block: 0;
+  display: inline;
+  font-size: 2em;
+  color: #232631;
+}
+
+.mainContainer .headerSection .logoContainer .logo i {
+  font-size: 2em;
+  color: #232631;
+}
+
+.mainContainer .headerSection .hrvertical {
+  height: 3em;
+  border-left: 0.01em solid #797f8f23;
+}
+
+.mainContainer .headerSection .logoContainer .travelers {
+  color: #797f8f;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.mainContainer .headerSection .logoContainer .travelers a {
+  padding-right: 0.5em;
+}
+
+.mainContainer .headerSection .logoContainer .travelers i {
+  font-size: 1.2em;
+}
+
+.mainContainer .headerSection .navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainContainer .headerSection nav .navContainer .navigation a {
+  margin: 0 1em;
+  font-size: 0.8em;
+}
+
+.mainContainer .headerSection nav .navContainer .navigation i {
+  margin-right: 0.8em;
+}
+
+.mainContainer .headerSection nav .navContainer .navigation .propertyStyles {
+  border: 0.2em solid #e6e8ec;
+  border-radius: 2em;
+  padding: 0.5em 0.9em;
+  color: #232631;
+  font-weight: bold;
+}
+
+.mainContainer .headerSection nav .navIcons {
+  padding: 0 0 1em 1em;
+}
+
+.mainContainer .headerSection nav .navIcons .supDot {
+  height: 0.8em;
+  width: 0.8em;
+  background-color: #5ec47e;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mainContainer .headerSection nav .navIcons img {
+  width: 2.5em;
+  position: relative;
+  top: 0.65em;
+  padding-left: 0.8em;
+}
+
+/* Main Section */
+
+.mainContainer .mainSection {
+  margin-top: 1em;
+  position: relative;
+}
+
+.mainContainer .mainSection .bgImg {
+  margin-bottom: 5em;
+}
+
+.mainContainer .mainSection .bgImg img {
+  object-fit: cover;
+  object-position: top;
+  width: 64em;
+  height: 100vh;
+  border-radius: 1em;
+}
+
+.mainContainer .mainSection .titleContainer {
+  position: absolute;
+  text-align: center;
+  top: 9em;
+  left: 20em;
+}
+
+.mainContainer .mainSection .titleContainer h1 {
+  font-size: 4em;
+  color: #232631;
+  margin-block: 0;
+}
+
+.mainContainer .mainSection .titleContainer p {
+  color: #41434b;
+  margin-block: 0;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.mainContainer .mainSection .titleContainer a {
+  color: white;
+  border-radius: 3em;
+  font-size: 0.8em;
+  background-color: #3d71fe;
+  padding: 0.7em 1em;
+}
+
+/* Functions Container */
+
+.mainContainer .mainSection .functionsContainer {
+  padding: 1.8em 2em;
+  background: #f7f2ef;
+  width: 80%;
+  margin: 0 auto 5em auto;
+  border-radius: 2em;
+  position: absolute;
+  top: 32.5em;
+  left: 4.4em;
+  box-shadow: 0 5px 4px -2px gray;
+}
+
+.mainContainer .mainSection .functionsContainer a {
+  margin: 0 0.8em;
+  font-size: 0.8em;
+}
+
+.mainContainer .mainSection .functionsContainer .functionWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.mainContainer
+  .mainSection
+  .functionsContainer
+  .functionWrapper
+  .functionContainerStyle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mainContainer
+  .mainSection
+  .functionsContainer
+  .functionWrapper
+  .functionContainerStyle
+  i {
+  font-size: 1.2em;
+  margin-right: 0.8em;
+}
+
+.mainContainer
+  .mainSection
+  .functionsContainer
+  .functionWrapper
+  .functionContainerStyle
+  h3 {
+  margin-block: 0;
+  line-height: 1;
+  padding-top: 1em;
+}
+
+.mainContainer
+  .mainSection
+  .functionsContainer
+  .functionWrapper
+  .functionContainerStyle
+  p {
+  margin-block: 0;
+}
+
+.mainContainer .mainSection .functionsContainer .functionWrapper .searchButton {
+  display: inline;
+  font-size: 1.4em;
+  padding: 0.4em 0.6em;
+  background-color: #3d71fe;
+  border-radius: 50%;
+  color: white;
+  float: right;
+}
+
+/* Footer Container */
+
+.footerContainer {
+  text-align: center;
+}
+
+.footerContainer h3 {
+  display: inline;
+  font-weight: lighter;
+}
+
+.footerContainer a {
+  font-weight: bold;
+  font-size: 1.5em;
+}
